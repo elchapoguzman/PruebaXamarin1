@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Paginas.Formulario">
+    <ContentPage.Content>
+        <StackLayout Spacing="0">
+
+            <Label Text="Formulario"
+                    Font="12"
+                    TextColor="White"
+                    BackgroundColor="Gray"
+                    VerticalTextAlignment="Center"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="360" 
+                    HeightRequest="20"
+                    ></Label>
+            <Entry x:Name="userEntry"
+                    Placeholder="Usuario"
+                    TextColor="gray"
+                    WidthRequest="260"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+            <Entry x:Name="rutEntry"
+                    Placeholder="Rut"
+                    TextColor="gray"
+                    WidthRequest="260"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+            <Entry x:Name="emailEntry"
+                    Placeholder="Email"
+                    TextColor="gray"
+                    WidthRequest="260"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+            <Entry x:Name="passEntry"
+                    Placeholder="Contraseña"
+                    IsPassword = "true"
+                    WidthRequest="260"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+            <Entry x:Name="passcEntry"
+                    Placeholder="Repita su contraseña"
+                    IsPassword = "true"
+                    WidthRequest="260"
+                    HeightRequest="40"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Entry>
+
+            <Button x:Name="loginButton"
+                    Text="Aceptar"
+                    BackgroundColor="Gray"
+                    TextColor="White"
+                    WidthRequest="260"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+            ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
